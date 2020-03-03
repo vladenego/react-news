@@ -1,0 +1,59 @@
+.nav-title  {
+  text-align: center;
+  
+ 
+}
+.navigation-wrap {
+  margin: 0px 20px;
+}
+.navigation {
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transition: .5s;
+}
+
+.navigation a {
+  transition: .5s;
+}
+
+
+.navigation a:hover {
+  transition: .5s;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: #000000;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 0px auto;
+}
+.menu {
+  margin: 0 auto;
+}
+.menu-ul {
+  display: flex;
+  list-style: none;
+  float: left;  
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
+.menu-ul li {
+  padding: 0px 10px;
+}
+
+a:active {
+  color: green;
+}
+a:visited {
+  color: pink;
+}
