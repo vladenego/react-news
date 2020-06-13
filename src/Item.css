@@ -8,13 +8,8 @@
   padding: 20px;
   margin: 20px auto;
   box-sizing: border-box;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-   
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
-  /* border: 5px solid;
-  border-image-source: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-  border-image-slice: 1; */
- 
 
 }
 
@@ -28,6 +23,7 @@
 .item img {
   width: 100%;
 }
+
 .item p {
   margin: 20px 0px;
 }
@@ -41,22 +37,18 @@
   padding: 10px;
   border: 2px solid #555555;
   margin: 10px 0px;
- 
+
 }
 
- .item-btn a {
+.item-btn a {
   text-decoration: none;
   color: black;
   cursor: pointer;
 }
 
-/* .item-btn a:hover {
-  color: white;
-}  */
 
-.item-btn:hover, a:hover {
+.item-btn:hover,
+a:hover {
   background-color: #555555;
   color: white;
 }
-
-
